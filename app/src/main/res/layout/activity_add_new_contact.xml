@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".AddNewContact">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Contacts"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="40dp"
+
+        ></TextView>
+    <ImageButton
+        android:id="@+id/add_contact"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/purple_200"
+        android:src="@drawable/ic_baseline_person_add_alt_1_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"></ImageButton>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="90dp"
+        android:text="Add New Contact"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="45dp"></TextView>
+
+    <ImageButton
+        android:id="@+id/add_contact_group"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="130dp"
+        android:background="@color/purple_200"
+        android:src="@drawable/ic_baseline_group_24"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="95dp"></ImageButton>
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="140dp"
+        android:text="Add New Contact Group"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="102dp"></TextView>
+
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chats"
+    android:background="#222227"
+    android:orientation="vertical">
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/messeges_top"
+            android:scaleX="3"
+            android:scaleType="fitCenter"
+            android:scaleY="3"
+            android:background="#00000000"></ImageButton>
+
+
+    <Button
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:text="1 new Message"></Button>
+
+    <Button
+        android:id="@+id/logoutbutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="15dp"
+        android:text="Logout"></Button>
+
+    <EditText
+        android:id="@+id/sh"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:hint="Search Here"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"></EditText>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="100dp"
+        android:background="#222227"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="650dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:src="@drawable/call"></ImageButton>
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="650dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:src="@drawable/camera"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/newchat"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="650dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:src="@drawable/messeges_top"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/contacts"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="650dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:src="@drawable/contacts"></ImageButton>
+
+
+
+</RelativeLayout>

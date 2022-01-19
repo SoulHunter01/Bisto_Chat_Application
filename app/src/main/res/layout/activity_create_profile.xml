@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"></ImageView>
+
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter FirstName...."
+        android:textColor="@color/white"
+        android:textColorHint="@color/purple_200"></EditText>
+
+
+
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter LastName...."
+        android:textColor="@color/white"
+        android:textColorHint="@color/purple_200"></EditText>
+
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter Gender...."
+        android:textColor="@color/white"
+        android:textColorHint="@color/purple_200"></EditText>
+
+    <EditText
+        android:id="@+id/Bio"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter Bio...."
+        android:textColor="@color/white"
+        android:textColorHint="@color/purple_200"></EditText>
+
+
+    <Button
+        android:id="@+id/createbutton"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#1b4585"
+        android:text="Create Account"></Button>
+
+
+</RelativeLayout>
